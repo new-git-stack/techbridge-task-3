@@ -1,9 +1,9 @@
 # TechBridge Task 2
 
-Live site: https://new-git-stack.github.io/techbridge-task-2/
+Live site: https://new-git-stack.github.io/techbridge-task-3/
 
 ![Desktop view](screenshots/Desktop_view.png)
 ![Mobile view](screenshots/Mobile_view.jpeg)
 
 ## Developer note
-I approached Task 2 by building on my Task 1 site instead of starting over, adding a dedicated programs.html and reusing the same navigation, buttons, cards, colors and footer so both pages feel like one website. I presented each program in its own section with a short line on its focus, a description of what learners will do, and its main skills as tags, so a visitor can see what each program is about and who it suits. To make the two easy to tell apart, I gave each program its own accent color (indigo for Data Analytics, green for Web Development) and a matching label, border and skill tags. I learned how to use CSS variables to change a component’s color per program with one shared rule, and how to link between pages and sections.# techbridge-task-3
+I presented the 8 tasks as cards in a responsive grid, each showing the task number, day, title, and a bar that fills up as the work gets more challenging. Clicking a card expands it to show the level and description, using the HTML details element so the page works without JavaScript. I chose cards because they let a new intern scan the whole internship at a glance and open only the task they want. I kept “Tasks” out of the navbar because it would have pushed the header onto three rows on mobile, so I linked to it from the internship section of the homepage and from each page’s footer instead. My main challenge was learning how to use CSS Grid, and working through it taught me how to build a layout that adapts from one column on mobile to three on desktop.
