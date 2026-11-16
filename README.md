@@ -1,4 +1,4 @@
-# TechBridge Task 2
+# TechBridge Task 3
 
 Live site: https://new-git-stack.github.io/techbridge-task-3/
 
